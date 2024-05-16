@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Paper1\Paper1.csproj" />
+    <ProjectReference Include="..\Paper2\Paper2.csproj" />
+    <ProjectReference Include="..\Paper3\NotePaper.csproj" />
+    <ProjectReference Include="..\PricePaper\PricePaper.csproj" />
+    <ProjectReference Include="..\ZodiacPaper\ZodiacPaper.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
+</Project>
